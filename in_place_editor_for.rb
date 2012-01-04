@@ -1,6 +1,11 @@
 gem 'actionpack', '~> 2.3'
 require 'action_controller'
 
+##
+# &copy; 2006 Andrew Coleman
+# Released under MIT license.
+# http://www.opensource.org/licenses/mit-license.php
+#
 module Consolo
   module InPlaceEditorFor
     def in_place_edit_for(object, method)
