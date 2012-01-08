@@ -8,5 +8,5 @@ Gem::Specification.new do |s|
   s.homepage = 'https://redmine.consoloservices.com'
   s.require_path = '.'
   s.files = [ 'in_place_editor_for.rb' ]
-  s.add_dependency 'actionpack', '~> 2.3'
+  s.add_dependency 'actionpack'
 end
